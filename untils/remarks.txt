@@ -1,0 +1,49 @@
+页面调用后台主要API：
+
+根路径baseUrl：http://localhost:8080/ilike
+一、用户页面
+1.我的 (个人中心)：center
+       http://localhost:8080/ilike/mine/center
+
+2.登录：login (post)
+         http://localhost:8080/ilike/users/login
+
+3.注册：register (post)
+        http://localhost:8080/ilike/users/verify?email
+
+4.退出：logout (get)
+        http://localhost:8080/ilike/users/logout
+
+5.获取用户：getUser (get)
+        http://localhost:8080/ilike/users/getUser
+
+6.找回密码：findPassword (post)
+        http://localhost:8080/ilike/users/verify?email
+
+7.更新用户头像：uploadUserHead (post)
+        http://localhost:8080/ilike/users/uploadUserHead
+
+8.获取图形验证码：verifyImg (get)
+        http://localhost:8080/ilike/verifyImg?Math.random()
+
+9.获取邮箱验证码：verify (get)
+        http://localhost:8080/ilike/verify?email
+
+《数据接口调用说明》：以下两项仅管理员拥有此权限
+
+10.冻结用户账号：updateFreeze (post)
+         http://localhost:8080/ilike//admin/updateFreeze
+
+11.删除指定用户：deleteUser (post)
+        http://localhost:8080/ilike/admin/deleteUser
+
+***短信验证说明***：verify
+成功开启POP3/SMTP服务,在第三方客户端登录时，密码框请输入以下授权码：
+配置邮件客户端：zcsnfpehkaswbfjf
+
+成功开启IMAP/SMTP服务,在第三方客户端登录时，密码框请输入以下授权码：
+配置邮件客户端：cemtiygiseebbdgb
+
+二、电影页面
+
+三、影院页面

@@ -1,0 +1,25 @@
+项目说明一(所需各种依赖模块安装):
+
+1. mongoose 数据库插件
+
+2. express  后台开发框架
+
+3. Element  后台布局插件
+
+4. nodemailer 邮箱验证码
+
+5. captcha 图形验证码
+
+6. crypto  密码加密安全
+
+7. multer 文件处理插件
+
+8. Animation 动画渲染
+
+9. swiper 轮播插件
+
+10. Nginx-1.16.0 服务器
+
+11. Vue-Devtools 扩展程序
+
+12. better-scroll： npm install -S better-scroll
